@@ -42,19 +42,19 @@ setx OPENROUTER_MODEL "deepseek/deepseek-v4-flash"
 Korean to Russian:
 
 ```powershell
-'오늘 저녁에 시간 괜찮으세요?' | python D:\0.Development\13.KakaoTranslator\translate.py ko-ru
+'오늘 저녁에 시간 괜찮으세요?' | python .\translate.py ko-ru
 ```
 
 Russian to Korean:
 
 ```powershell
-'Как дела?' | python D:\0.Development\13.KakaoTranslator\translate.py ru-ko
+'Как дела?' | python .\translate.py ru-ko
 ```
 
 ## AutoHotkey Usage
 
 1. Install AutoHotkey v2 from `https://www.autohotkey.com/`.
-2. Run `D:\0.Development\13.KakaoTranslator\kakao_translate.ahk`.
+2. Run `kakao_translate.ahk` from the project folder.
 3. Put the cursor in the KakaoTalk message input box.
 4. Type a message.
 5. Press `F4` for Korean to Russian, or `Shift+F4` for Russian to Korean.
