@@ -5,10 +5,8 @@ scriptDir := A_ScriptDir
 pythonExe := "python"
 translateScript := scriptDir "\translate.py"
 
-#HotIf WinActive("ahk_exe KakaoTalk.exe")
 F4::TranslateFocusedInput("ko-ru")
 +F4::TranslateFocusedInput("ru-ko")
-#HotIf
 
 TranslateFocusedInput(direction) {
     global pythonExe, translateScript

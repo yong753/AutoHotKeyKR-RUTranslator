@@ -67,7 +67,7 @@ Russian to Korean:
 
 ## Notes
 
-- The hotkeys are active only when the KakaoTalk PC window is focused.
+- The script works on the currently focused text input, not only KakaoTalk.
 - It uses `Ctrl+A`, `Ctrl+C`, and `Ctrl+V`, so keep focus in the intended input box.
 - The AutoHotkey script asks Python to write UTF-8 output directly to avoid Windows console encoding issues.
 - The clipboard is restored after the translated text is pasted.
